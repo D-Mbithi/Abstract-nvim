@@ -217,7 +217,7 @@ def main():
     else:
         if need_to_clone_abstract():
             print("\n")
-            clone_repro(CONFIG, "https://github.com/Abstract-IDE/Abstract", "nvim")
+            clone_repro(CONFIG, "https://github.com/D-Mbithi/Abstract-nvim", "nvim")
 
         else:
             # prevent copying or removing if setup.up is running from ~/.config/nvim/
